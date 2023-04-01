@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>SLIDER--IMPLEM</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="main">
+        <div class="section--wrapper padding--lg max-width">
+          <div class="content--wrapper page--flex">
+            <div class="col--1">
+              <div class="imageslide splide" id="roleImg">
+                <div class="splide__track">
+                  <div class="splide__list">
+                    <div class="splide__slide">
+                      <div class="img--container">
+                        <img
+                          src="images/image--1.jpeg"
+                          class="img--class"
+                          alt="hero--img"
+                        />
+                      </div>
+                    </div>
+                    <div class="splide__slide">
+                      <div class="img--container">
+                        <img
+                          src="images/image--2.jpeg"
+                          class="img--class"
+                          alt="hero--img"
+                        />
+                      </div>
+                    </div>
+                    <div class="splide__slide">
+                      <div class="img--container">
+                        <img
+                          src="images/image--3.jpeg"
+                          class="img--class"
+                          alt="hero--img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col--2">
+              <div class="text--content">
+                <span>We are helping</span>
+                <div class="text--slide--container">
+                  <div class="splide textslide" id="textRole">
+                    <div class="splide__track">
+                      <div class="splide__list">
+                        <div class="splide__slide text-sl">Ladies</div>
+                        <div class="splide__slide text-sl">Men</div>
+                        <div class="splide__slide text-sl">Girls</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="faster-move">move faster with webflow</span>
+                <div class="paracontainer">
+                  <div class="paraslide splide textslide" id="paraTrack">
+                    <div class="splide__arrows splide__arrows--ltr">
+                      <button
+                        class="splide__arrow splide__arrow--prev"
+                        type="button"
+                        aria-label="Previous slide"
+                        aria-controls="paraTrack-track"
+                        disabled=""
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/5fd4ce044370aa38e873ba1b/641dfe7c50c8a20cf9e33d1a_Frame%20277132626.svg"
+                          alt="arrow--img"
+                        /></button
+                      ><button
+                        class="splide__arrow splide__arrow--next"
+                        type="button"
+                        aria-label="Next slide"
+                        aria-controls="paraTrack-track"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/5fd4ce044370aa38e873ba1b/641dfe7cbec8da35d5771280_Frame%20277132626-1.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                    <div class="splide__track">
+                      <div class="splide__list">
+                        <div class="splide__slide paratext">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error beatae dignissimos blanditiis
+                            repellendus ipsam odio amet aliquam distinctio, sed
+                            quaerat, deleniti, non deserunt
+                          </p>
+                        </div>
+                        <div class="splide__slide paratext">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error beatae dignissimos blanditiis
+                            repellendus ipsam odio amet aliquam distinctio, sed
+                            quaerat, deleniti, non deserunt
+                          </p>
+                        </div>
+                        <div class="splide__slide paratext">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Error beatae dignissimos blanditiis
+                            repellendus ipsam odio amet aliquam distinctio, sed
+                            quaerat, deleniti, non deserunt
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+    ></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>
